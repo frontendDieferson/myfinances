@@ -15,11 +15,21 @@ const styles = StyleSheet.create({
         paddingTop: 22,
         paddingBottom: 22,
         zIndex: 99,
+
+        shadowColor: "#000",
+            shadowOffset: {
+	        width: 0,
+	        height: 2,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+
+        elevation: 5,
         
     },
     item: {},
     itemTitle: {
-        color: '#DADADA',
+        color: '#95a5a6',
         fontSize: 20,
         fontWeight: '700',
         
@@ -29,7 +39,7 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     currencySimbol: {
-        color: '#DADADA',
+        color: '#95a5a6',
         marginRight: 6,
     }, 
     balance: {
