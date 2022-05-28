@@ -4,7 +4,7 @@ import { StyleSheet } from "react-native"
 const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 22 : 64;
 const styles = StyleSheet.create({
     container: {
-      backgroundColor: '#8e44ad',
+      backgroundColor: '#2C3E50',
       paddingTop: statusBarHeight,
       flexDirection: 'row',
       paddingStart: 16,

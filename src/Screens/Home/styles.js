@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
       fontSize: 18,
       fontWeight: 'bold',
       margin: 14,
+      color: '#2c3e50'
     },
     list: {
       marginStart: 14,
