@@ -1,4 +1,4 @@
-
+import 'react-native-reanimated'
 import { Text, View, StyleSheet } from 'react-native';
 import Home from './src/Screens/Home';
 
