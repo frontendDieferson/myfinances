@@ -38,9 +38,9 @@ const Home = () => {
     <View style={styles.container}>
         <Header name="Dieferson Soares" />
         
-
         <Balance saldo="5.000,00" gastos="-900,00"/>
-        
+
+        <Actions />
 
       <Text style={styles.title}>Últimas Movimentações</Text>
 
