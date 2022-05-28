@@ -41,7 +41,7 @@ const Actions = () => {
 
     <TouchableOpacity style={styles.actionButton}>
         <View style={styles.areaButton}>
-            <AntDesign name="setting" size={26} color="#16a085" />
+            <AntDesign name="setting" size={26} color="#34495e" />
         </View>
         <Text style={styles.buttonLabel}>Conta</Text>
     </TouchableOpacity>
