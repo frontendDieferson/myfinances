@@ -1,11 +1,12 @@
 import React from 'react';
-import { View, Text, FlatList } from 'react-native';
+import { View, Text, FlatList, ScrollView } from 'react-native';
 import Header from '../../components/Header';
 import styles from './styles';
 
 import Balance from '../../components/Balance';
 import Moviments from '../../components/Moviments';
 import Actions from '../../components/Actions';
+import CardBlog from '../../components/CardBlog';
 
 
 const list = [
@@ -35,7 +36,8 @@ const list = [
 
 const Home = () => {
   return (
-    <View style={styles.container}>
+    <View style={styles.container} showsHorizontalScrollIndicator={false}>
+      <ScrollView>
         <Header name="Dieferson Soares" />
         
         <Balance saldo="5.000,00" gastos="-900,00"/>
@@ -51,6 +53,13 @@ const Home = () => {
         showsVerticalScrollIndicator={false}
         renderItem={({item}) => <Moviments data={item} /> }
       />
+
+
+       <Text style={styles.title}>Dicas de Investimento e Finanças</Text>
+
+       <CardBlog />
+      </ScrollView>
+    
     </View>
   )
 }

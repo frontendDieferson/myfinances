@@ -17,6 +17,11 @@ const styles = StyleSheet.create({
       marginEnd: 14,
       marginTop: 18,
     },
+    contentBlog: {
+      marginBottom: 50,
+      marginStart: 14,
+      marginEnd: 14,
+    }
 
   });
 
