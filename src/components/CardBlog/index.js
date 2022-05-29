@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image } from 'react-native';
+import { View, Text, Image, TouchableOpacity } from 'react-native';
 
 import styles from './styles';
 import image1 from '../../assets/image1.jpg'
@@ -13,26 +13,26 @@ const CardBlog = () => {
   return(
       <View style={styles.container}>
           
-            <View style={styles.content}>
+            <TouchableOpacity style={styles.content}>
 
            <Image style={styles.image} source={image1} />
            <Text style={styles.title}>Dicas de Finanças</Text>
            <Text style={styles.titleText}>Aqui vai um testo muito legal sobre dicas em Finanças</Text>
-            </View>
+            </TouchableOpacity>
 
-            <View style={styles.content}>
+            <TouchableOpacity style={styles.content}>
                 
            <Image style={styles.image} source={image2} />
            <Text style={styles.title}>Dicas de Finanças</Text>
            <Text style={styles.titleText}>Aqui vai um testo muito legal sobre dicas em Finanças</Text>
-            </View>
+            </TouchableOpacity>
 
-            <View style={styles.content}>
+            <TouchableOpacity style={styles.content}>
            <Image style={styles.image} source={image3} />
            <Text style={styles.title}>Dicas de Finanças</Text>
            <Text style={styles.titleText}>Aqui vai um testo muito legal sobre dicas em Finanças</Text>
-           </View>
-           
+           </TouchableOpacity>
+
           </View>
         
       
